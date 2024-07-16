@@ -1,0 +1,18 @@
+[project]
+name = "fastGPT"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "MasakiMu319", email = "bancangbaize@gmail.com"},
+]
+dependencies = [
+    "grpcio>=1.64.1",
+    "grpcio-tools>=1.64.1",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
